@@ -10,7 +10,7 @@ You'll need the following permissions:
 
 The service itself broadcasts 2 local messages that you'll need to intercept in your app:
 
-* GDMService.MSG_RECEIVED
+===GDMService.MSG_RECEIVED===
 This is broadcasted whenever a plex media server discovery packet is received.
 The received packet is sent with the broadcast as an extra called "data".
 The IP Address (of the PMS) that sent the packet is available as an extra called "ipaddress".

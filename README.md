@@ -4,8 +4,8 @@ Plex-GDM-IntentService
 A simple Android IntentService which searches for Plex Media Servers' on the local network using their custom "Good Day Mate" service.
 
 You'll need the following permissions:
-<uses-permission android:name="android.permission.INTERNET"/>
-<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+android.permission.INTERNET
+android.permission.ACCESS_WIFI_STATE
 
 The service itself broadcasts 2 local messages that you'll need to intercept in your app:
 
